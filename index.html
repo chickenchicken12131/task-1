@@ -6,23 +6,116 @@
     <title>Insert Title Here</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+</head>
 <body>
-    <img>
-    <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-        </ul>
-      </nav>    
     <header>
-        <h1>Why I love Fish Food</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <p>Insert Introduction Here</p>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to 2025 Sports Cars</h2>
+            <p>Welcome to 2025 Sports Cars 🚗💨 — your destination for the latest in high-performance vehicles.
+
+We bring you the future of driving with cars designed for speed 🏎️, luxury 💎, and innovation 💡.
+Every model we offer is built with cutting-edge technology, powerful engines, and precision handling.
+From the sleek curves of the exterior to the advanced features inside, our cars are made to impress 😍.
+Whether you're looking for blistering acceleration, smooth performance, or high-end comfort — we have it all.
+
+Feel the adrenaline of race-inspired engineering 🏁 blended with everyday reliability 🔧.
+Our designers and engineers work together to create vehicles that aren’t just fast, but smart and efficient too ⚙️.
+Enjoy advanced safety features 🛡️, responsive controls 🎮, and the latest in driver-assist technology 🧠.
+Each car is crafted with attention to detail, from the luxurious interiors to the lightweight materials 🧵.
+We believe your car should be more than transportation — it should be an experience 🌟.
+
+Take a look at our featured models 👀 and discover what makes 2025 Sports Cars stand out.
+With bold style 🎨, unmatched speed ⚡, and innovative design 🧬, we're redefining what a sports car can be.
+Your journey to the ultimate ride starts here 🚀..</p>
+        </section>
+
+        <!-- Models Section -->
+        <section id="models">
+            <h2>Our Models</h2>
+
+            <!-- Hennessey Venom F5 -->
+            <input type="checkbox" id="toggleModelX" class="car-toggle">
+            <label for="toggleModelX">
+                <div class="car-card">
+                    <div class="image-box">
+                        <img src="https://images.autodaily.com.au/2023/08/Hennessey-Venom-F5-Revolution-Roadster-3.jpg" alt="Model X">
+                    </div>
+                    <h3>Hennessey Venom F5</h3>
+                    <p>The perfect blend of style and speed. Engineered for performance and elegance.</p>
+                    <div class="car-info">
+                        <p><strong>Horsepower:</strong> 1,817 hp</p>
+                        <p><strong>Top Speed:</strong> 311 mph</p>
+                        <p><strong>Acceleration (0-60 mph):</strong> 2.6 seconds</p>
+                    </div>
+                </div>
+            </label>
+
+            <!-- Bugatti Chiron Super Sport -->
+            <input type="checkbox" id="toggleModelY" class="car-toggle">
+            <label for="toggleModelY">
+                <div class="car-card">
+                    <div class="image-box">
+                        <img src="https://bugatti.imgix.net/677aae27531541bbada895c6/chiron-super-sport-300-og.jpg" alt="Model Y">
+                    </div>
+                    <h3>Bugatti Chiron Super Sport</h3>
+                    <p>Experience the future of driving with cutting-edge technology and design.</p>
+                    <div class="car-info">
+                        <p><strong>Horsepower:</strong> 1,600 hp</p>
+                        <p><strong>Top Speed:</strong> 273 mph</p>
+                        <p><strong>Acceleration (0-60 mph):</strong> 2.4 seconds</p>
+                    </div>
+                </div>
+            </label>
+
+            <!-- Koenigsegg Jesko Absolut -->
+            <input type="checkbox" id="toggleModelZ" class="car-toggle">
+            <label for="toggleModelZ">
+                <div class="car-card">
+                    <div class="image-box">
+                        <img src="https://www.topgear.com/sites/default/files/images/big-read/2023/02/1fbc64ee77e7e9d184010ab838ac80b0/MAIN.jpg?w=1280&h=720" alt="Model Z">
+                    </div>
+                    <h3>Koenigsegg Jesko Absolut</h3>
+                    <p>The ultimate driving machine with unmatched power and precision.</p>
+                    <div class="car-info">
+                        <p><strong>Horsepower:</strong> 1,600 hp</p>
+                        <p><strong>Top Speed:</strong> 330 mph</p>
+                        <p><strong>Acceleration (0-60 mph):</strong> 2.5 seconds</p>
+                    </div>
+                </div>
+            </label>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
     <footer>
-        <p>Start Footer Here</p>
+        <p>&copy; 2025 Sports Cars Inc. All rights reserved.</p>
     </footer>
 </body>
 </html>
